@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.10",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPSTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Substance",
+			"Enabled": true
+		}
+	]
+}
